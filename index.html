@@ -20,6 +20,32 @@
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script defer src="./assets/scripts.js"></script>
+	<!-- script pour le référencement local basé sur chema.org -->
+	<script type=" application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"type": "PhotographyBusiness",
+			"name": "Nina Carducci",
+			"image": "https://katalinkalmar.github.io/nina-carducci/assets/images/nina.webp",
+			"description": "Photographe professionnelle à Bordeaux et en Ile-de-France",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"adressCountry": "Fr",
+			},
+			"telephone": "05 56 67 78 89",
+			"url": "https://katalinkalmar.github.io/nina-carducci/",
+			"priceRange": "De 50 € à 400€",
+			"openingHourspecification": {
+				"@type": "openingHourspecification",
+				"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+				"opens": "10:00",
+				"closes": "19:00"
+			}
+		}
+	 </script>
 </head>
 
 <body>
@@ -94,30 +120,6 @@
 					la
 					tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 			</div>
-			<!--Ajout de microdonnées 
-<div itemscope itemprop="creator" itemtype="https://schema.org/Person">
-	<h1 itemprop="name">Nina Carducci</h1>
-	<a itemprop="telephone" href="tel:+33556677889">Numéro de téléphone</a>
-	</div>
-	<div itemscope itemtype="https://schema.org/LocalBusiness">
-	<p itemprop="address">
-	<span itemprop="streetAddress"> 68 avenue Alsace-Lorraine</span><br>
-	<span itemprop="postalCode">33200</span>
-	<span itemprop="locality">Bordeaux</span><br>
-	<span itemprop="country">France</span>
-	</p>
-	</div>
-	<div itemscope itemtype="https://schema.org/LocalBusiness">
-	<p itemprop="address">
-	<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span><br>
-	<span itemprop="postalCode">33200</span>
-	<span itemprop="locality">Bordeaux</span><br>
-	<span itemprop="country">France</span>
-	</p>
-	<div itemprop="creator" itemscope itemtype="https://schema.org/Person">
-	<h1 itemprop="name">Nina Carducci</h1>
-	<a itemprop="telephone" href="+33556677889">Numéro de téléphone</a>
-	</div>-->
 		</div>
 
 		</div>
