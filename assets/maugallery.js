@@ -191,6 +191,7 @@
           index = i;
         }
       });
+      /*il faut rajouter +1 à l'index dans imagesCollection pour que le programme choisisse l'image suivante*/
       next = imagesCollection[index + 1] || imagesCollection[0];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
@@ -236,6 +237,7 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
+      /* pour le choix par catégories on rajoute "active" avant active-tag*/
       $(this).addClass("active active-tag");
 
       var tag = $(this).data("images-toggle");
